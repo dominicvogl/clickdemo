@@ -1,80 +1,82 @@
 /*
-#	(c) 2012 Demo by Werbeagentur 4c media
-#	http://www.cccc.de
-#
-#	Version 1.0.2
+*	Clickdemo Framework
+*   (c) 2013 Demo by Vogl Webdesign (dv)
+*	http://www.cat-ia.de
+*
+*	Version 1.1
 */
 
 body {
-	overflow-x:  hidden;
+    overflow-x: hidden;
 }
 
 img {
-	/* SET SCREENSHOT SIZE */
-	width: 1920px;
-	height: 4000px;
-	}
-	
-.image {
-	position: relative;
-	z-index: 10;
-	left: 50%;
-	margin: 0 0 0 -960px;
-	}
-	
-.nav { 
-	position: static;
-	background: rgba(255,255,255,0.95);
-	border-radius: 3px;
-	margin: 10px;
-	padding: 3px 5px;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	line-height: 1.2em;
-	z-index: 20;
-	}
-	
-.nav ul li {
-	display: inline-block;
-	margin: 0 20px 0 0;
-	}
-	
-.nav a {
-	color: #808080;
-	line-height: 1.5em;
-	text-decoration: none;
-	font-size: .8em;
-	}
-	
-.nav a:hover {
-	color: #000;
-	}
+    /* Set your Screenshot size */
+    width: 1440px;
+    height: auto;
+}
+
+.container {
+    z-index: 10;
+    width: 1440px;
+    margin: 0 auto;
+}
 
 
-@media only screen and (min-width : 1400px) {
 
-.nav { 
-	position: absolute;
-	background: rgba(255,255,255,0.95);
-	border-radius: 3px;
-	margin: 10px;
-	padding: 20px;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	line-height: 1.2em;
-	z-index: 20;
-	}
-	
-.nav a {
-	color: #808080;
-	line-height: 1.5em;
-	text-decoration: none;
-	}
-	
-.nav a:hover {
-	color: #000;
-	}
+/* Navigation */
+.nav {
+    position: static;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 3px;
+    margin: 10px;
+    padding: 3px 5px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 1.2em;
+    z-index: 20;
+}
 
 .nav ul li {
-	display: block;
-	}
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+.nav a {
+    color: #808080;
+    line-height: 1.5em;
+    text-decoration: none;
+    font-size: .8em;
+}
+
+.nav a:hover {
+    color: #000;
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .nav {
+        position: absolute;
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 3px;
+        margin: 10px;
+        padding: 20px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        line-height: 1.2em;
+        z-index: 20;
+    }
+
+    .nav a {
+        color: #808080;
+        line-height: 1.5em;
+        text-decoration: none;
+    }
+
+    .nav a:hover {
+        color: #000;
+    }
+
+    .nav ul li {
+        display: block;
+    }
 
 }
